@@ -19,7 +19,7 @@ const actus = {
     readAjax(url, apiKey, keyword, lg, callback) {
         console.log(keyword);
         const newsLg = (lg === 'fr') ? 'fr' : 'en';
-        const newsUrl = `${url}q=${keyword}&apiKey=${apiKey}`;
+        const newsUrl = `${url}q=${keyword}&sortBy=popularity&apiKey=${apiKey}`;
         this.ajaxGet(newsUrl, callback);
     }
 }
