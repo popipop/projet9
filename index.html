@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Veille technologique</title>
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="css/evigie.css">
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+  <script src="js/settings.js" defer></script>
+  <script src="js/actus.js" defer></script>
+  <script src="js/view.js" defer></script>
+  <script src="js/controller.js" defer></script>
+</head>
+<body>
+  <header id="header">
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><i class="material-icons">visibility</i>eVigie</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#"><i class="material-icons">public</i></a></li>
+            <li><a href="#"><i class="material-icons">refresh</i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div id="main" class="row">
+    <div class="menu col s2">
+      <ul id="menuActu">
+        <li class="actu">
+          <p>Actualité</p>
+          <ul id="listActu">
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="content col s8">
+      <ul id="articles" class="collapsible popout">
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

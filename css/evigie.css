@@ -1,0 +1,24 @@
+body {
+  height: 100%;
+}
+
+h4 {
+  font-size: 1.3em;
+}
+
+li.active .collapsible-header {
+  background-color: lightpink;
+}
+
+.img-article {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.nav-wrapper {
+  padding-left: 30px;
+}
+
+#main {
+  min-height: 100%;
+}
